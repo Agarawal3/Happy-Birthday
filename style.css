@@ -117,13 +117,43 @@ img {
 .type-wrap {
     font-size: 25px;
     color: #C4515C;
-
+    text-align: center;
+    padding: 0 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 1.5;
 }
 
+
 .cake {
-    transform: translateY(-50%);
-    transform: translateX(-50%);
-    left: 50%;
-    position: absolute;
-    padding-top: 250px;
+    position: relative;
+    left: 0;
+    transform: none;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.cake img {
+    width: 100%;
+    max-width: 450px;
+}
+
+@media (max-width: 768px) {
+
+    .area {
+        font-size: 50px;
+        letter-spacing: -3px;
+    }
+
+    .type-wrap {
+        font-size: 18px;
+        padding: 0 20px;
+        margin-bottom: 30px;
+        line-height: 1.6;
+    }
+
+    .cake img {
+        max-width: 320px;
+    }
 }
